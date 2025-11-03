@@ -52,29 +52,3 @@ bfs(g,0)
 
 
 
-
-
-
-
-'''class Vershina():
-    def __init__(self, name):
-        self.name = name
-        self.svuzy=[]
-
-    def add_svuzy(self,child):
-        self.svuzy.append(child)
-
-def dfs(vershina):
-    print(vershina.name)
-    for i in vershina.svuzy:
-        dfs(i)
-
-
-root = Vershina(name="A")
-vershina_b=Vershina('B')
-vershina_c=Vershina('C')
-vershina_d=Vershina('D')
-vershina_e=Vershina('E')
-root.add_svuzy(vershina_b)
-root.add_svuzy(vershina_c)
-dfs(root)'''
